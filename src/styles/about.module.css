@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    /* background-clip: content-box; */
+}
+h1{
+    margin: 0;
+}
+.text{
+    color: #333;
+    text-align: left;
+
+}
+
+.textContainer {
+    width: 45%;
+}
+.imageContainer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

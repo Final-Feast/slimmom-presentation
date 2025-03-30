@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #577aa1;
+}
+
+.logo{
+    cursor: pointer;
+    
+}
+
+.navButton{
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+
+}
+
+.navButton:hover{
+    background-color: #4a6f8e;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
