@@ -18,6 +18,13 @@ function Description() {
               <p>
                 The application is built using React for the frontend and Node.js for the backend, ensuring a seamless user experience and efficient data handling.
               </p>
+              <p>
+                For more detailed information
+                <button className={style.navButton} onClick={() => document.getElementById("Tools-section").scrollIntoView({ behavior: "smooth" })}>
+                          click 
+                      </button>
+                here.
+              </p>
             </div>
             </div>
             

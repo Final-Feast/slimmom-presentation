@@ -6,6 +6,7 @@ import Description from "./components/description";
 import Features from "./components/features";
 import Tools from "./components/tools";
 import Nav from "./components/nav";
+import Team from "./components/team";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Features />
         <Architecture />
         <Tools />
+        <Team />
+
       </main>
     </div>
   );

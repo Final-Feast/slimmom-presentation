@@ -4,7 +4,7 @@ function Architecture() {
     return (
       <div>
         <section id="Architecture-section">
-          <h2>Hakkında</h2>
+          <h2>Architecture</h2>
         </section>
       </div>
     );
