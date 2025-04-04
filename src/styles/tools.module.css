@@ -1,0 +1,100 @@
+.container{
+    padding: 2rem;
+}
+.sliderWrapper{
+    position:relative;
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color:#d1eaf76b;
+    flex-shrink: 0;
+    border-radius: 50px;
+}
+.slider{
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    /* line ekle ki işe yarasın */
+    aspect-ratio: 16/9;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    /* to hide scrollbar */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+
+.toolsList{
+    display: flex;
+    list-style-type: none;
+    padding: 12px 24px;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+}
+.toolItem{
+    background-color: azure;
+    padding: 40px;
+    border: 2px solid #d1eaf7;
+    border-radius: 10%;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonRight,
+.buttonLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toolIcon{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+}
+.slideralt{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+}
+.sliderNav{
+    display: flex;
+    column-gap: 1.5rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.sliderNav a{
+    width: 1rem;
+    height: 1rem;
+    background-color: #cecfcf;
+    opacity: 0.75;
+    border-radius: 50%;
+    transition: opacity ease 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.active{
+    width: 1rem;
+    height: 1rem;
+    background-color: #ffffff;
+    opacity: 0.75;
+    border-radius: 50%;
+    transition: opacity ease 0.3s;
+}
+
+
+.sliderNav button:hover,
+.sliderNav button:focus{
+    background-color: rgba(29, 29, 29, 0.603);
+}
+
+
+/* https://youtu.be/McPdzhLRzCg?si=t2kSD3XDWN0bLyKp */

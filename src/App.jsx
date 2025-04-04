@@ -17,9 +17,10 @@ function App() {
       <main className="main">
         <About />
         <Description />
+        <Tools />
+
         <Features />
         <Architecture />
-        <Tools />
         <Team />
 
       </main>

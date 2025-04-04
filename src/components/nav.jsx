@@ -24,6 +24,9 @@ function Nav() {
       <button className={style.navButton} onClick={() => document.getElementById("Description-section").scrollIntoView({ behavior: "smooth" })}>
           Description
       </button>
+      <button className={style.navButton} onClick={() => document.getElementById("Tools-section").scrollIntoView({ behavior: "smooth" })}>
+          Tools
+      </button>
       <button className={style.navButton} onClick={() => document.getElementById("Features-section").scrollIntoView({ behavior: "smooth" })}>
           Features
       </button>
@@ -33,9 +36,7 @@ function Nav() {
       <button className={style.navButton} onClick={() => document.getElementById("Development-section").scrollIntoView({ behavior: "smooth" })}>
           Development
       </button>
-      <button className={style.navButton} onClick={() => document.getElementById("Tools-section").scrollIntoView({ behavior: "smooth" })}>
-          Tools
-      </button>
+      
       <button className={style.navButton} onClick={() => document.getElementById("Team-section").scrollIntoView({ behavior: "smooth" })}>
           Team
       </button>

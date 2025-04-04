@@ -1,0 +1,25 @@
+.architectureContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem;
+    
+    width: 75rem;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.architectureItem{
+    background-color: #eff7ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transition: transform 0.3s ease;
+    padding: 20px;
+}
+.architectureItem:hover{
+    background-color: #e8f4ff;
+
+}
