@@ -4,16 +4,22 @@ import { TbBrandRedux, TbBrandReact, TbBrandMongodb } from "react-icons/tb";
 import { RiNodejsFill } from "react-icons/ri";
 import { FiDatabase } from "react-icons/fi";
 import style from "../styles/tools.module.css";
+import { useState } from "react"; // ekle en üste
 
 function Tools() {
+  const [activeSlide, setActiveSlide] = useState("slider1");
+
+  
   // Function to handle the click event and scroll to the respective section
   const handleScroll = (event, id) => {
-    event.preventDefault(); // Varsayılan sayfa kaydırma davranışını engelle
+    event.preventDefault();
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      setActiveSlide(id); // aktif olanı güncelle
     }
   };
+  
   
 
   return (
@@ -49,10 +55,23 @@ function Tools() {
           </div>
         </div>
         <div className={style.sliderNav}>
-          <a href="#slider1" onClick={(e) => handleScroll(e, "slider1")}></a>
-          <a href="#slider2" onClick={(e) => handleScroll(e, "slider2")}></a>
-          <a href="#slider3" onClick={(e) => handleScroll(e, "slider3")}></a>
-        </div>
+  <a
+    href="#slider1"
+    onClick={(e) => handleScroll(e, "slider1")}
+    className={activeSlide === "slider1" ? style.active : ""}
+  ></a>
+  <a
+    href="#slider2"
+    onClick={(e) => handleScroll(e, "slider2")}
+    className={activeSlide === "slider2" ? style.active : ""}
+  ></a>
+  <a
+    href="#slider3"
+    onClick={(e) => handleScroll(e, "slider3")}
+    className={activeSlide === "slider3" ? style.active : ""}
+  ></a>
+</div>
+
       </div>
     </section>
   );

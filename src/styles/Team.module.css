@@ -13,14 +13,14 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
-    border: solid 2px #d1eaf7;
+    border: solid 2px #497755;
     border-radius: 20px;
     transition: transform 0.5s ease, box-shadow 0.5s ease; 
 }
 
 .teamMember:hover {
     transform: scale(1.05); 
-    box-shadow: 0 0 40px #d1eaf7;
+    box-shadow: 0 0 40px #497755;
 }
 
 .teamMember img{

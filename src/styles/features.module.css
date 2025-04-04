@@ -6,10 +6,9 @@
 }
 .architectureItem{
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     flex: 1;
     transition: transform 0.3s ease;
-    padding: 20px;
 }
 
 .architectureItem ul{
@@ -24,9 +23,17 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+
+}
+
+.architectureItem ul > li > img{
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
 .architectureItem ul > li > img:hover{
-    box-shadow: 0 0 100px #d1eaf7;
+    box-shadow: 0 0 100px #497755;
+    transform: scale(1.05); 
+
 }
 
 .architectureItem ul > li > img{
