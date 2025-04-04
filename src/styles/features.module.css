@@ -32,7 +32,7 @@
 }
 .architectureItem ul > li > img:hover{
     box-shadow: 0 0 100px #497755;
-    transform: scale(1.05); 
+    transform: scale(1.01); 
 
 }
 

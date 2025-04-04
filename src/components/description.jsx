@@ -1,5 +1,5 @@
 import style from "../styles/description.module.css";
-
+import pic from "../assets/pic2.jpg";
 function Description() {
     return (
       <div>
@@ -8,7 +8,13 @@ function Description() {
 
             <div className={style.descriptioncont}>
               <div className={style.descriptionimg}>
-                <img width="406" height="304" alt="About Us" src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1170&amp;q=80"></img>
+                <img style={{borderRadius: "20px", width: "100%", height: "100%"}}
+                              width="406"
+                              height="304"
+                                src={pic}
+                                alt="About Us"
+                                className={style.image}
+                              />
               </div>
               <div className={style.descriptiontext}>
                 <h1>Description</h1>
