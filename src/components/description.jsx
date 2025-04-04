@@ -29,9 +29,9 @@ function Description() {
             </div>
             
             <div className={style.textcont}>
-              <a className={style.text} href="https://github.com/yourusername/yourproject" target="_blank" rel="noopener noreferrer">BackEnd API</a>
-              <a className={style.text} href="https://github.com/yourusername/yourproject" target="_blank" rel="noopener noreferrer">FrontEnd</a>
-              <a className={style.text} href="https://github.com/yourusername/yourproject" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={style.text} href="https://github.com/Final-Feast/node" target="_blank" rel="noopener noreferrer">BackEnd API</a>
+              <a className={style.text} href="https://github.com/orgs/Final-Feast/repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={style.text} href="https://github.com/Final-Feast/React-dev" target="_blank" rel="noopener noreferrer">FrontEnd</a>
             </div>
           </div>
         </section>

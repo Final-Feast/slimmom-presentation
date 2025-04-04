@@ -8,12 +8,13 @@ import style from "../styles/tools.module.css";
 function Tools() {
   // Function to handle the click event and scroll to the respective section
   const handleScroll = (event, id) => {
-    event.preventDefault(); // Prevent default anchor link behavior
+    event.preventDefault(); // Varsayılan sayfa kaydırma davranışını engelle
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
   };
+  
 
   return (
     <section id="Tools-section" className={style.container}>
