@@ -4,6 +4,7 @@ import mustafa from "../assets/team/mustafa.jpg"
 import pinar2 from "../assets/team/pınar2.png"
 import gülay from "../assets/team/gülay.jpg"
 import mehmet from "../assets/team/mehmet.jpg"
+import eren from "../assets/team/eren.jpg"
 // import bahattin from "../assets/team/bahattin.jpg"
 function Team() {
 
@@ -57,16 +58,16 @@ function Team() {
           </div>
           <div className={style.team}>
             <div className={style.teamMember}>
-            <img src="" alt="" width="300px" height="350px"/>
-              <p className={style.name}>name</p>
-              <p className={style.role}>role</p>
+            <img src={eren} alt="" width="300px" height="350px"/>
+              <p className={style.name}>Eren AYDOĞAN</p>
+              <p className={style.role}>Backend</p>
             </div>
           </div>
           <div className={style.team}>
             <div className={style.teamMember}>
             <img src="" alt="" width="300px" height="350px"/>
-              <p className={style.name}>name</p>
-              <p className={style.role}>role</p>
+              <p className={style.name}>Deniz Sofia ULUTAŞ</p>
+              <p className={style.role}>Frontend</p>
             </div>
           </div>
           <div className={style.team}>
