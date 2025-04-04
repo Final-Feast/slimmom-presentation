@@ -25,3 +25,31 @@
     flex-direction: row;
     gap: 20px;
 }
+.architectureItem ul > li > img:hover{
+    box-shadow: 0 0 100px #d1eaf7;
+}
+
+.architectureItem ul > li > img{
+    height: auto;
+
+width: auto;
+    border-radius: 10px;
+
+}
+.architectureItem ul > li:first-child {
+    order: 1;
+    
+}
+  #img1,
+  #img3,
+  #img5{
+    order: 2;
+    transition: transform 0.3s ease;
+  }
+
+  .architectureItem ul > li > p{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

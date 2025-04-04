@@ -1,7 +1,7 @@
 import './App.css'
 import React from "react";
 import About from "./components/about";
-import Architecture from "./components/architecture ";
+// import Architecture from "./components/architecture ";
 import Description from "./components/description";
 import Features from "./components/features";
 import Tools from "./components/tools";
@@ -21,7 +21,7 @@ function App() {
         <Tools />
 
         <Features />
-        <Architecture />
+        {/* <Architecture /> */}
         <Team />
         <Thank />
 

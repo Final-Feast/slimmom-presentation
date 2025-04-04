@@ -30,9 +30,9 @@ function Nav() {
       <button className={style.navButton} onClick={() => document.getElementById("Features-section").scrollIntoView({ behavior: "smooth" })}>
           Features
       </button>
-      <button className={style.navButton} onClick={() => document.getElementById("Architecture-section").scrollIntoView({ behavior: "smooth" })}>
+      {/* <button className={style.navButton} onClick={() => document.getElementById("Architecture-section").scrollIntoView({ behavior: "smooth" })}>
           Architecture
-      </button>
+      </button> */}
       <button className={style.navButton} onClick={() => document.getElementById("Development-section").scrollIntoView({ behavior: "smooth" })}>
           Development
       </button>

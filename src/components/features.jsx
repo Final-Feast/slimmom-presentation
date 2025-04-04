@@ -1,54 +1,49 @@
 import style from "../styles/features.module.css";
+import searchImg from "../assets/search.png";
+import trackingImg from "../assets/tracking.png";
+import uiImg from "../assets/ui.png";
+import calendarImg from "../assets/calender.png";
+import apiImg from "../assets/api.png";
 
 function Features() {
+  return (
+    <section id="Features-section" className={style.container}>
+      <h2 className={style.featuresTitle}>Features</h2>
+      <div className={style.architectureItem}>
+        <ul>
+          <li>
+            <img src={searchImg} alt="search" width="100px" height="100px" id={style.img1} />
+            <p><strong>Real-time search:</strong> Users can see search results updating instantly as they type in the search bar.</p>
+            
+          </li>
+          <li>
+            <img src={trackingImg} alt="tracking" width="100px" height="100px" id={style.img2} />
+            <p>
+            <strong>Calorie tracking:</strong> Users can track the calorie intake from foods they consume, helping them manage their diet.
+            </p>
+          </li>
+          <li>
+            <img src={uiImg} alt="ui" width="100px" height="100px" id={style.img3} />
+            <p>
+            <strong>User-friendly interface:</strong> The app provides an intuitive UI that enhances the overall user experience.
+            </p>
+          </li>
+          <li>
+            <img src={calendarImg} alt="calendar" width="100px" height="100px" id={style.img4} />
+            <p>
+            <strong>Calendar integration:</strong> Users can easily manage their diet plans by selecting specific days in an integrated calendar.
+            </p>
+          </li>
+          <li>
+            <img src={apiImg} alt="api" width="100px" height="100px" id={style.img5} />
+            <p>
+            <strong>Real-time API data fetching:</strong> The application fetches data from external APIs to provide users with up-to-date information in real-time.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  );
+}
 
-
-    return (
-        <section id="Features-section" className={style.container}>
-          <h2 className={style.featuresTitle}>Features</h2>
-          <div className={style.architectureItem}>
-            <ul>
-              <li>
-              <img src="" alt="" width="100px" height="100px"/>
-
-                <strong>Real-time search:</strong> Users can see search results updating instantly as they type in the search bar.
-              </li>
-              <li>
-              <img src="" alt="" width="100px" height="100px"/>
-
-                <strong>Calorie tracking:</strong> Users can track the calorie intake from foods they consume, helping them manage their diet.
-              </li>
-              <li>
-              <img src="" alt="" width="100px" height="100px"/>
-
-                <strong>User-friendly interface:</strong> The app provides an intuitive UI that enhances the overall user experience.
-              </li>
-              <li>
-              <img src="" alt="" width="100px" height="100px"/>
-
-                <strong>Calendar integration:</strong> Users can easily manage their diet plans by selecting specific days in an integrated calendar.
-              </li>
-              <li>
-              <img src="" alt="" width="100px" height="100px"/>
-
-                <strong>Real-time API data fetching:</strong> The application fetches data from external APIs to provide users with up-to-date information in real-time.
-              </li>
-            </ul>
-          </div>
-        </section>
-    );
-  }
-  
-  export default Features;
-
-  // Gerçek Zamanlı Arama: Kullanıcılar, arama çubuğuna yazarken sonuçların anında güncellenmesini sağlar. Bu özellik, kullanıcıların aradıkları öğeleri hızlı bir şekilde bulmalarına yardımcı olur.
-//kalori hesabı: Kullanıcılar, yedikleri yiyeceklerin kalori miktarını takip edebilirler. Bu özellik, kullanıcıların diyetlerini daha iyi yönetmelerine yardımcı olur.
-// kullanıcı dostu arayüz: Uygulama, kullanıcıların kolayca gezinebileceği ve ihtiyaç duydukları bilgilere hızlı bir şekilde ulaşabileceği bir arayüze sahiptir. Bu özellik, kullanıcı deneyimini artırır.
-// takvim entegre: Kullanıcılar, takvim ikonuna istediği günü tıklayarak diyet planını daha iyi yönetmelerine yardımcı olur.
-//  API ile gerçek zamanlı veri çekme
-
-// kullanıcıların yedikleri yiyeceklerin kalori miktarını takip edebilirler. Bu özellik, kullanıcıların diyetlerini daha iyi yönetmelerine yardımcı olur.
-
-
-// images gonna be added later
-// using child component for each feature to put each in different location
+export default Features;
