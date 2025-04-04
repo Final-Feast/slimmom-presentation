@@ -7,6 +7,7 @@ import Features from "./components/features";
 import Tools from "./components/tools";
 import Nav from "./components/nav";
 import Team from "./components/team";
+import Thank from "./components/thank";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Features />
         <Architecture />
         <Team />
+        <Thank />
 
       </main>
     </div>
